@@ -1,4 +1,5 @@
-# Red_Wine_Quality_Prediction
+
+# Red Wine Quality Prediction
 
 A machine learning project that predicts the quality of red wine based on its physicochemical attributes. The project uses regression models to estimate wine quality scores from a dataset sourced from UCI Machine Learning Repository.
 
@@ -64,71 +65,85 @@ git clone https://github.com/n1yxz/Red_Wine_Quality_Prediction.git
 cd Red_Wine_Quality_Prediction
 pip install -r requirements.txt
 ```
-If requirements.txt is not present, manually install:
 
+> If `requirements.txt` is not present, manually install:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
-🚀 Usage
-Run the notebook using Jupyter:
 ```
 
+---
+
+## 🚀 Usage
+
+Run the notebook using Jupyter:
+
+```bash
 jupyter notebook Updated_Red_Wine_Quality_Prediction.ipynb
+```
+
 Or execute the script (if converted):
 
 ```bash
 python predict_wine_quality.py
 ```
-🧠 Models
+
+---
+
+## 🧠 Models
+
 This project uses the following regression models:
 
-Linear Regression
+- **Linear Regression**
+- **Random Forest Regressor**
 
-Random Forest Regressor
+---
 
-📈 Evaluation
+## 📈 Evaluation
+
 The models are evaluated using:
 
-R² Score
+- **R² Score**
+- **Mean Squared Error (MSE)**
+- **Mean Absolute Error (MAE)**
 
-Mean Squared Error (MSE)
+---
 
-Mean Absolute Error (MAE)
+## 📊 Visualizations
 
-📊 Visualizations
-Correlation heatmaps
+- Correlation heatmaps
+- Feature importance plots
+- Actual vs Predicted value comparisons
+- Distribution and box plots
 
-Feature importance plots
+---
 
-Actual vs Predicted value comparisons
+## 🧪 Examples
 
-Distribution and box plots
-
-🧪 Examples
 Example output after model training:
 
-```yaml
+```
 Random Forest Regressor:
 R² Score: 0.65
 MSE: 0.31
 MAE: 0.45
 ```
 
-🛠 Troubleshooting
-Ensure the CSV file is in the same directory as the notebook.
+---
 
-Use pip install to resolve any missing module errors.
+## 🛠 Troubleshooting
 
-For Jupyter issues, try running: jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10
-
-👨‍💻 Contributors
-@n1yxz
-
-📄 License
-This project is open-source and available under the MIT License.
-
-yaml
-Copy code
+- Ensure the CSV file is in the same directory as the notebook.
+- Use `pip install` to resolve any missing module errors.
+- For Jupyter issues, try running: `jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10`
 
 ---
 
-Would you like me to export this as a downloadable `README.md` file for you?
+## 👨‍💻 Contributors
+
+- [@n1yxz](https://github.com/n1yxz)
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
